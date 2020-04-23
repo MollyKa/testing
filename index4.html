@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>学校网站</title>
+		<style type="text/css">
+			*{
+				margin:0;
+				padding:0;
+			}
+			#container{
+				width:1004px;
+				height:913px;
+				margin:0 auto;
+				background-image: url(images/m_bg.jpg);
+				background-repeat: no-repeat;
+			}
+			
+			#top{
+				width:1004px;
+				height:158px;
+				padding-left:220px;
+			}
+			.pictures{
+				width:80px;
+				height:80px;
+				padding-top:55px;
+				float:left;
+				margin-left: 10px;
+				position: relative;
+			}
+			.note{
+				width:50px;
+				margin-top: -61px;
+				margin-left:22px;
+				position:absolute;
+				color:white;
+				
+			}
+			
+			#main{
+				padding:0px;
+				width:1004px;
+				height:755px;
+			}
+			
+			#main_left{
+				width:220px;
+				height:755px;
+				margin:0px;
+				float:left;
+			}
+			#xygg{
+				height:203px;
+				padding-top: 67px;
+			}
+			#tittle1{
+	
+				padding-left: 47px;
+			}
+			.text{
+				padding-left: 37px;
+				line-height: 23px;
+				font-size:12px;
+				color:white;
+			}
+			.unnormal{
+				padding-left: 108px;
+			}
+			#xxyd{
+				height:489px;
+			}
+			#tittle2{
+				padding-left: 57px;
+			}
+			
+			
+			
+			
+			#main_right{
+				width:784px;
+				height:755px;
+				float:left;
+			}
+			#main_right #head{
+				width:784px;
+				height:266px;
+				margin:0 auto;
+			}
+			#main_right #head #head_left{
+				float:left;
+				width: 352px;
+				height:265px;
+				background-image: url(images/box1.jpg);
+				background-repeat:no-repeat;
+				margin:49px 2px 0px 28px;
+				
+			}
+			#main_right #head #head_left #tittle3{
+				width:132px;
+				height:45px;
+				margin:-42px 0px 9px 3px;
+				position: relative;
+			}
+			#main_right #head #head_left .dirction{
+				width:20px;
+				height:114px;
+				margin:-3px -10px -1px 309px;
+				position:absolute;
+			}
+			#main_right #head #head_left #biao3 ul{
+				margin:-3px 9px -2px 28px;
+				position: relative;
+				font-size: 15px;
+				list-style-type: none;
+			}
+			#main_right #head #head_left #biao3 li{
+				width:250px;
+				height:11px;
+				padding:10px 10px 10px 10px;
+				background-image:url(images/ico.jpg);
+				background-repeat:no-repeat;
+				background-position: 0 20px;
+				border-bottom: 1px dashed grey;
+				line-height: 28px;
+				position: relative;
+			}
+			
+			
+			#main_right #head #head_right{
+				float:left;
+				width: 352px;
+				height:265px;
+				background-image: url(images/box1.jpg);
+				background-repeat:no-repeat;
+				margin:49px 13px 0px 21px;
+			}
+			#main_right #head #head_right #tittle4{
+				width:132px;
+				height:45px;
+				margin:-42px 0px 9px 3px;
+				position: relative;
+			}
+			#main_right #head #head_right .dirction{
+				width:20px;
+				height:114px;
+				margin:-3px -10px -1px 309px;
+				position:absolute;
+			}
+			#main_right #head #head_right #biao4 ul{
+				margin:-3px 9px -2px 28px;
+				position: relative;
+				font-size: 15px;
+				list-style-type: none;
+			}
+			#main_right #head #head_right #biao4 li{
+				width:250px;
+				height:11px;
+				padding:10px 10px 10px 10px;
+				background-image:url(images/ico.jpg);
+				background-repeat:no-repeat;
+				background-position: 0 20px;
+				border-bottom: 1px dashed grey;
+				line-height: 28px;
+				position: relative;
+			}
+			
+			#main_right #middle{
+				width:727px;
+				height:341px;
+				margin:50px auto;
+			}
+			#main_right #middle #up_tittle{
+				width:132px;
+				height:45px;
+				margin:-44px 15px 1px 2px;
+				position: absolute;
+				
+			}
+			#main_right #midlle #bg{
+				width:784px;
+				height:450px;
+				position: absolute;
+			}
+			#main_right #middle #middle_up{
+				width:784px;
+				height:135px;
+				position: absolute;
+				margin-top: -319px;
+				margin-left: 40px;;
+			}
+			#main_right #middle #middle_up #photo img{
+				border:1px solid black;
+				margin-left:15px;
+				padding: 5px;
+			}
+			#main_right #middle #middle_up #wenzi1{
+				float:left;
+				margin-left:55px;
+			}
+			#main_right #middle #middle_up #wenzi2{
+				float:left;
+				margin-left:90px;
+			}
+			#main_right #middle #middle_up #wenzi3{
+				float:left;
+				margin-left:97px;
+			}
+			
+			#main_right #middle #middle_up #wenzi4{
+				float:left;
+				margin-left:93px;
+			}
+			
+			#main_right #middle #middle_down{
+				width:784px;
+				height:119px;
+				position: absolute;
+				margin-top: -149px;
+				margin-left: 40px;;
+			}
+			#main_right #middle #middle_down #photo img{
+				border:1px solid black;
+				margin-left:15px;
+				padding: 5px;
+			}
+			#main_right #middle #middle_down #wenzi1{
+				float:left;
+				margin-left:55px;
+			}
+			#main_right #middle #middle_down #wenzi2{
+				float:left;
+				margin-left:90px;
+			}
+			#main_right #middle #middle_down #wenzi3{
+				float:left;
+				margin-left:97px;
+			}
+			
+			#main_right #middle #middle_down #wenzi4{
+				float:left;
+				margin-left:93px;
+			}
+			
+			#footer {
+				color:black;
+				font-size: 80%;
+				height:150px;
+				width:724x;
+				clear: both;
+				margin-top: 67px;
+				margin-left:112px;
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+		<div id="container">
+			
+			<div id="top">
+				<div class="pictures"><img src="images/menu_bg.png"><a href="#"><div class="note">网站首页</div></a></div>
+				<div class="pictures"><img src="images/menu_bg.png"><a href="#"><div class="note">学校概况</div></a></div>
+				<div class="pictures"><img src="images/menu_bg.png"><a href="#"><div class="note">新闻动态</div></a></div>
+				<div class="pictures"><img src="images/menu_bg.png"><a href="#"><div class="note">师生风采</div></a></div>
+				<div class="pictures"><img src="images/menu_bg.png"><a href="#"><div class="note">师生资料</div></a></div>
+				<div class="pictures"><img src="images/menu_bg.png"><a href="#"><div class="note">网上留言</div></a></div>
+			    <div class="pictures"><img src="images/menu_bg.png"><a href="#"><div class="note">招聘信息</div></a></div>
+			    <div class="pictures"><img src="images/menu_bg.png"><a href="#"><div class="note">关于我们</div></a></div>
+			</div>
+			<div id="main">
+				
+				<div id="main_left">
+					<div id="xygg">
+						<div id="tittle1"><img src="images/tit_ann.png"></div>
+						<div class="text">
+							<div id="biao1">
+							<ul>
+								<li>关于2016年考研室课题课...</li>
+								<li>关于2016年考研室课题库</li>
+								<li>关于2016年考研室课题库</li>
+								<li>关于2016年考研室课题库</li>
+								<li>关于2016年考研室课题库</li>
+								<li>关于2016年考研室课题库</li>
+							</ul>
+							</div>
+							<div class="unnormal">更多...</div>
+						</div>
+					</div>
+					<div id="xxyd">
+						<div id="tittle2"><img src="images/tit_yuan.png"></div>
+						<div class="text">
+							<div id="biao2">
+							<ul>
+								<li>关于2016年考研室课题课...</li>
+								<li>关于2016年考研室课题库</li>
+								<li>关于2016年考研室课题库</li>
+								<li>关于2016年考研室课题库</li>
+								<li>关于2016年考研室课题库</li>
+								<li>关于2016年考研室课题库</li>
+							</ul>
+							</div>
+							<div class="unnormal">更多...</div>
+						</div>
+					</div>
+				</div>
+				
+			
+				<div id="main_right">
+					<div id="head">
+						
+						<div id="head_left">
+							<div id="tittle3"><img src="images/tit_school.png"></div>
+							<div class="dirction"><img src="images/more.png"></div>
+							<div id="biao3">
+								<ul>
+									<li>关于2016年考研室课题课课课课课</li>
+									<li>关于2016年考研室课题库</li>
+									<li>关于2016年考研室课题库</li>
+									<li>关于2016年考研室课题库</li>
+									<li>关于2016年考研室课题库</li>
+									<li>关于2016年考研室课题库</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div id="head_right">
+							<div id="tittle4"><img src="images/tit_teach.png"></div>
+							<div class="dirction"><img src="images/more.png"></div>
+							<div id="biao4">
+								<ul>
+									<li>关于2016年考研室课题课课课课课</li>
+									<li>关于2016年考研室课题库</li>
+									<li>关于2016年考研室课题库</li>
+									<li>关于2016年考研室课题库</li>
+									<li>关于2016年考研室课题库</li>
+									<li>关于2016年考研室课题库</li>
+								</ul>
+							</div>
+						</div>
+						
+					</div>
+					<div id="middle">						
+						<div id="up_tittle"><img src="images/tit_pic.png"></div>
+						<div id="bg"><img src="images/box2.jpg"></div>
+						<div id="middle_up">
+							<div id="photo">
+							<img src="images/pic.jpg">
+							<img src="images/pic1.jpg">
+							<img src="images/pic.jpg">
+							<img src="images/pic1.jpg">
+							</div>
+							<div id="wenzi1">校园图片</div>
+							<div id="wenzi2">校园图片</div>
+							<div id="wenzi3">校园图片</div>
+							<div id="wenzi4">校园图片</div>
+						</div>
+						<div id="middle_down">
+							<div id="photo">
+							<img src="images/pic2.jpg">
+							<img src="images/pic3.jpg">
+							<img src="images/pic2.jpg">
+							<img src="images/pic3.jpg">
+							</div>
+							<div id="wenzi1">校园风光</div>
+							<div id="wenzi2">校园风光</div>
+							<div id="wenzi3">校园风光</div>
+							<div id="wenzi4">校园风光</div>
+						</div>
+					</div>
+					<div id="footer">
+						版权所有 © 中山五桂山桂南学校&nbsp&nbsp&nbsp学校地址：中山市五桂山镇桂南马溪环村3号
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+	</body>
+</html>
