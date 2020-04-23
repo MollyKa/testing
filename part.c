@@ -1,4 +1,4 @@
-#include<stdioh>
+#include<stdio>
 main()
 {
   printf("hello word\n");
